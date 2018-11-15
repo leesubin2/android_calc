@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계 산 기"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:background="#f4b7f2" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="첫번째 수" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="두번째 수" />
+
+    <Button
+        android:id="@+id/plusBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="30dp"
+        android:background="#fffa5e"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/minusBtntn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="30dp"
+        android:background="#fffa5e"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/multiBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textSize="30dp"
+        android:background="#fffa5e"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/divBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="30dp"
+        android:background="#fffa5e"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/eqoaBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="30dp"
+        android:background="#58a1ff"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#84f496"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:text="결과"/>
+
+</LinearLayout>
